@@ -1,48 +1,61 @@
-nav{
+nav {
     background-color: darkblue;
     padding: 10px;
 }
-nav{
+
+nav a {
     color: white;
     display: block;
     padding: 20px;
 }
-h1{
+
+h1 {
     color: darkblue;
 }
-img{
+
+img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
-p{
+
+p {
     padding: 0px;
 }
-main{
+
+main {
     max-width: 840px;
 
 }
-aside{
-    width:20rem;
+
+aside {
+    width: 20rem;
     margin: 1rem;
-    border:1px solid rgb(0 0 0 / 0.2); /* 1 */
+    border: 1px solid rgb(0 0 0 / 0.2);
+    /* 1 */
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
 }
-aside img{
+
+aside img {
     width: 200px;
     height: auto;
 
 }
-main img{
+
+main img {
     width: 150px;
     height: auto;
+    border: 1em solid rgb(0 0 0 / 0.2);
+    padding: 1em;
+    box-shadow: 0 0 30px gray;
 }
-footer{
+
+footer {
     margin-top: 15px;
     border-top: 1px #000;
     text-align: center;
