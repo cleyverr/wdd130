@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 header nav ul {
-    background-color: yellow;
+    background-color: rgb(250, 250, 179);
 }
 body {
     font-family: var(--body-font);
@@ -42,7 +42,7 @@ article {
    
 }
 nav,section,article{
-    background-color: rgb(121, 239, 121);
+    background-color: rgb(174, 216, 174);
 }
 
 .socialmedia a {
