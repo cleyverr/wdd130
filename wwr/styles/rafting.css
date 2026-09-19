@@ -12,7 +12,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+header nav ul {
+    background-color: yellow;
+}
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -37,6 +39,10 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+   
+}
+nav,section,article{
+    background-color: rgb(121, 239, 121);
 }
 
 .socialmedia a {
