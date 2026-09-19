@@ -26,8 +26,7 @@ footer {
     margin: 0 auto;
 }
 
-h1,
-h2 {
+h1,h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -41,7 +40,7 @@ article {
 }
 
 .socialmedia a {
-    text-decoration: non;
+    text-decoration: none;
 }
 
 .hero {
@@ -65,7 +64,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     /*Style the article using absolute positioning and a style of your choice.*/
     top: 10px;
@@ -80,8 +79,8 @@ article {
 .hero article img {
     float: right;
     width: 125px;
-    border: 1 px#f4a261;
+    border: 1 px var(--secondary-color);
     margin: 10px;
-    box-shadow: (0 0 30px lightgoldenrodyellow);
+    box-shadow: var(--accent2-color);
 
 }
