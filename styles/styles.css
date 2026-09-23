@@ -5,20 +5,33 @@
 
    }
 
+   header,
+   footer,
+   .grid {
+       max-width: 840px;
+       margin: 0 auto;
+
+   }
+
    nav {
-       background-color: rgb(129, 129, 216);
+       background-color: darkred;
        padding: 15px;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
    }
 
    nav a {
        color: white;
+       text-decoration: none;
        display: block;
-       padding: 10px;
+       padding: 1.2rem;
    }
 
    h1 {
-       color: rgb black;
-       margin-left: 10px;
+       color: darkred;
+       margin-left: 10px 0;
+       border-bottom: 2px solid black;
    }
 
    img {
@@ -30,43 +43,43 @@
    }
 
    p {
-       padding: px;
-       color: #000;
-       margin-left: 20px;
+       padding: 0;
+   }
+
+   .grid {
+       display: grid;
+       align-items: center;
    }
 
    main {
-       max-width: 840px;
-
+       grid-column: 2/3;
+       margin: 1rem;
    }
 
    aside {
        position: relative;
-       width: 320px;
-       margin: 1rem;
-       border: 1px solid rgba(145, 146, 218, 0.2);
-       /* 1 */
-       padding: 1rem;
-       background-color: rgb rgb(91, 91, 142);
-       color: black;
+       width: 20rem;
        text-align: center;
-    }
+       grid-column: 1/2;
+       grid-row: 1/2;
+   }
 
    aside img {
        width: 200px;
        height: auto;
 
-    }
+   }
 
-    aside h2 {
+   aside h2 {
        position: absolute;
-       color: #000;
-    }
-   
+       color: darkolivegreen;
+       margin-left: 60px;
+       margin-top: 30px;
+   }
+
    main img {
        width: 150px;
        height: auto;
-       box-shadow: 0 0 30px rgb(138, 138, 169);
        float: right;
        margin: left 10px;
    }
@@ -78,10 +91,10 @@
    }
 
    /* class selectors*/
-    .box {
-       border: 1px solid rgb (0 0 0 / 10%);
-       margin: 1rem;
+   .box {
+       border: 1px solid rgb (0 0 0 /10%);
+       margin: 0;
        padding: 1rem;
-       background-color: rgb(227, 217, 218);
+       background-color: rosybrown;
        color: rgb black;
-    }
+   }
