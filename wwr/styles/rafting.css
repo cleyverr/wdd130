@@ -197,6 +197,12 @@ footer{
     
 }
 .adventures img{
+    display: grid;
     width: 100%;
     height: auto;
+}
+.flex-container h2{
+    display: flex;
+    margin-bottom: 30px;
+
 }
