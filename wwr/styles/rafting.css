@@ -13,7 +13,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.flex-container {
+.flex {
     display: flex;
     align-items: center;
 
@@ -58,13 +58,8 @@ header image{
 
 
 }
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 
-}
+
 nav ul{
     display: flex;
     grid-column: 2/3;
@@ -117,7 +112,7 @@ h1,h2 {
     
 }
 .grid-history p {
-    display: flex;
+    display: grid;
     grid-row: 2;
     grid-column:(1/2, 3/4); 
     justify-content: space-around
@@ -202,12 +197,21 @@ footer{
 }
 .adventures img{
     display: grid;
+    grid-template-rows: 1;
+    grid-template-columns:5;
+    grid-row: 1;
+    grid-column: 1/5;
     width: 100%;
     height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
 }
-.flex-container h2{
+.flex h2 {
     display: flex;
-    margin-bottom: 30px;
-    background-color:#f4a261;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
 
+   
 }
