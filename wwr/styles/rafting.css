@@ -1,4 +1,3 @@
-
 :root {
     --primary-color: forest green;
     --secondary-color: #f4a261;
@@ -13,21 +12,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .flex {
     display: flex;
     align-items: center;
 
 }
-ul{
+
+ul {
     background-color: #fff;
     width: 400px;
     height: 40px;
     padding: 0px;
     text-align: center;
-    
-    
-    
+
+
+
 }
+
 header,
 img,
 nav {
@@ -36,14 +38,15 @@ nav {
     padding: 5px;
     align-items: center;
 }
+
 .grid {
     display: grid;
     align-items: center;
 }
 
-header{
+header {
     margin: 1rem auto;
-    display: grid ;
+    display: grid;
     grid-template-columns: 120px 1fr;
     border-bottom: 11px solid white;
     max-width: 1000px;
@@ -51,7 +54,8 @@ header{
     gap: 1rem;
 
 }
-header image{
+
+header image {
     display: grid;
     grid-column: 1/2;
     justify-content: center;
@@ -60,7 +64,7 @@ header image{
 }
 
 
-nav ul{
+nav ul {
     display: flex;
     grid-column: 2/3;
     align-items: center;
@@ -68,68 +72,73 @@ nav ul{
     justify-content: space-around;
 
 }
+
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
 
 }
+
 header,
 main,
 footer {
     width: 840px;
     margin: 0 auto;
 }
-header
-h1,h2 {
+
+header h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-.grid{
-    display:grid ;
+
+.grid {
+    display: grid;
     align-items: center;
 }
-.grid-history{
+
+.history {
     display: grid;
-    grid-template-columns:1fr auto 1fr;
-    grid-template-rows: 2 0;
-    align-content: space-around;
-    align-items: center;
+    grid-template-columns: 1fr;
+    justify-self:history img;
     gap: 1rem;
 }
-.grid-history img {
-    display: grid;
-    max-width: 80%;
+
+.history img{ 
+    display: block;
+    width: 100%;
     height: auto;
-    position: relative;
+    max-width:250px;
 
-    
+
+
 }
-.grid-history h2 {
 
-    display: grid;
-    grid-row: 10rem;
-    grid-column: 1/4;
+.history h2 {
+
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
     text-align: center;
-    
+    align-items: center;
+
 }
-.grid-history p {
-    display: grid;
-    grid-row: repeat (2, 1fr);
-    grid-column: 1/2, 2/3
-    justify-content:space-evenly
-    
-}
+
+
 p,
 section,
 article {
     margin: 1px;
     padding: 8px;
-    
-   
+
+
 }
-section,article{
+
+section,
+article {
     background-color: var(--accent2-color);
-    
+
 }
 
 .socialmedia a {
@@ -175,44 +184,49 @@ h1 {
     border: 1em px var(--secondary-color);
     margin: 20px;
     box-shadow: var(--accent2-color);
-    
+
 }
 
 
-footer{
+footer {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     background-color: #f4a261;
-    
+
 }
+
 .adventures {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 8px;
     text-align: center;
     justify-content: center;
-    
 
-    
+
+
 }
-.adventures img{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns:repeat(5,1fr);
-    grid-row: 10rem;
-    grid-column: 1/5;
-    width: 100%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-}
-.flex h2 {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    justify-content: center;
+
+.gallery img {
+    display: block;
+    max-width: 150px;
+
 
    
+}
+
+.h2 {
+    display: block;
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+        text-align: center;
+        align-items: center;
+    
+
+
+
+
+
 }
