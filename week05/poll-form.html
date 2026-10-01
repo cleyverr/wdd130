@@ -4,32 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activity poll-form</title>
-    <link rel="stylesheet" href="styles/table-exercise-solution.css">
+    <title></title>
+    <link rel="stylesheet" href="poll-form.css">
 </head>
 <header>
 
 </header>
+    <h1>| WDD 130 | HTML Form-User Poll</h1>
 <main>
-    <form>
-        <label>Full Name:<input type="text" id="fullname"name="fullname"required></label>
-        <label>Email:<input type="email"id="useremail" name="useremail"required></label>
-    </form>
-    <label for="browser">What is your favorite Browser? </label>
-    
-    <select name="browser" id="browser">
-            <option value="brave">Brave</option>
-            <option value="edge">Edge</option>
-            <option value="chrome">Chrome</option>
-    </select>
-    <label for="pet">Do you have a household pet? </label>
-    <input type="checkbox" id="pet" name="pet">
-    <label for="feedback">Name the places you have lived? </label>
-    <textarea name="feedback" id="feedback" rows="4" placeholder="Durango CO, Tijuana Mexico, Rexburg ID, Houston TX."></textarea>
-    <button type="submit">Submit Poll</button>
-   </select>
-
-
+    <h2 class="h2">Contact Information</h2>
+    <div class="form-item column2">
+        <label>Full Name:<input type="text" id="fullname" name="fullname" required></label>
+        <label>Email:<input type="email" id="useremail" name="useremail" required></label>
+    </div>
+    <h2 class="h2">Questions</h2>
+        <div class="column1"><label for="browser">What is your favorite Browser? </label></div>
+        
+        <select name="browser" id="browser">
+                <option value="brave"> Brave</option>
+                <option value="edge"> Edge</option>
+                <option value="chrome"> Chrome</option>
+        </select>
+        <div class="column1"><label for="pet">Do you have a household pet? </label></div>
+        <input type="checkbox" id="pet" name="pet">
+        <label for="feedback">Name the places you have lived? </label>
+        <textarea name="feedback" id="feedback" rows="4" placeholder="Durango CO, Tijuana Mexico, Rexburg ID, Houston TX."></textarea>
+        <button type="submit">Submit Poll</button>
 </main>
 <footer>
 
