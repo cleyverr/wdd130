@@ -20,7 +20,7 @@
 }
 
 ul {
-    background-color: blanchedalmond;
+    background-color: beige;
     width: 400px;
     height: 40px;
     padding: 0px;
@@ -35,7 +35,7 @@ img,
 nav {
     background-color: olivedrab;
     margin: auto;
-    padding: 2px ;
+    padding: 1px ;
     align-items: center;
 }
 
@@ -102,7 +102,7 @@ h2 {
     grid-template-columns: 1fr auto 1fr;
     gap: 1rem;
     align-items: center;
-    background-color: blanchedalmond;
+    background-color: beige;
     
 }
 
@@ -141,6 +141,7 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+   
 }
 
 .hero {
@@ -160,8 +161,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent2-color);
-    color: darkblue;
+    color: black;
 }
 
 .hero article {
