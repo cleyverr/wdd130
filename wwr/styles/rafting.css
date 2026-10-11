@@ -121,8 +121,8 @@ article {
 
 }
 
-h1 {
-    position: absolute;
+h1-article {
+    position: relative;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -134,10 +134,11 @@ h1 {
 .hero article {
     position: relative;
     width: 100%;
-    padding: 15px;
+    height: 10rem;
+    padding: 25px;
     text-align: center;
     color: black;
-    background-color: antiquewhite;
+    background-color: bisque;
 
 }
 
@@ -145,9 +146,9 @@ article p {
     display: inline-block;
     width: 190px;
     height: auto;
+    margin-right: 40px;
     text-align: center;
     justify-content: center;
-    background-color: antiquewhite;
 
 }
 
@@ -216,6 +217,11 @@ fieldset {
 
 }
 
+.article-h1 {
+    align-items: center;
+
+}
+
 .form-column1 {
     display: block, right;
     grid-column: 2/3;
@@ -256,7 +262,7 @@ button {
     margin: 80px 50px;
 }
 
-checkbox {
-    width: 30px;
-    height: auto;
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
 }
