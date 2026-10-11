@@ -206,7 +206,7 @@ input {
 
 fieldset {
     display: grid;
-    position: absolute, right;
+    position: right;
     grid-column: 2/3;
     grid-row: 2;
     grid-template-columns: 180px 10px;
@@ -223,7 +223,7 @@ fieldset {
 }
 
 .form-column1 {
-    display: block, right;
+    display: block;
     grid-column: 2/3;
     grid-row: 2;
     margin-top: 20px;
