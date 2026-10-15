@@ -555,20 +555,21 @@ input[type="checkbox"] {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2px;
     max-width: 840px;
+    background-color: beige;
 
 }
 
 .trips-page .destinations p {
     font-weight: 500;
     line-height: 1;
-    text-align: left;
+    text-align: center;
     letter-spacing: .5px;
 }
 
 .trips-page .destinations article {
     text-align: center;
     padding: 10px;
-    margin: 1px;
+    margin: 3px;
     box-sizing: border-box;
     border: #f4a261 solid;
     max-width: 840px;
@@ -595,9 +596,12 @@ input[type="checkbox"] {
 }
 
 table {
+    display: block;
     border-collapse: collapse;
     border: 1px solid rgb(140 140 140);
     letter-spacing: 1px;
+    background-color: antiquewhite;
+
 }
 
 th,
