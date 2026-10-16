@@ -596,11 +596,11 @@ input[type="checkbox"] {
 }
 
 table {
-    display: block;
     border-collapse: collapse;
     border: 1px solid rgb(140 140 140);
     letter-spacing: 1px;
     background-color: antiquewhite;
+    width: 100%;
 
 }
 
